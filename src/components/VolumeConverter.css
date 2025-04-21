@@ -1,0 +1,90 @@
+/* Container */
+.converter-container {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #f9f9f9, #e8f0ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.converter-container:hover {
+  transform: scale(1.01);
+}
+
+.converter-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input */
+.converter-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.converter-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Selects */
+.converter-selects {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.converter-selects select {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.converter-selects select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button */
+.converter-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.converter-button:hover {
+  background-color: #0056b3;
+}
+
+/* Result */
+.converter-result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #222;
+  background-color: #ffffffaa;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
